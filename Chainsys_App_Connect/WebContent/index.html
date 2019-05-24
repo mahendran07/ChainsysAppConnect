@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+	* {
+		font-family: Roboto;
+	}
+	
+	.image {
+		position: absolute;
+  		margin-top:-85px;
+  		transform:rotate(-45deg);
+	}
+	
+	body
+	{
+		background-color: silver;
+	}
+	.img
+	{
+		position: absolute;
+		left: 85%;
+		bottom: 15%;	
+	}
+	.head
+	{
+		background-color: black;
+		color:white;
+		text-align:center;
+	}
+	.title {
+	font-weight: 300;
+	letter-spacing: 3px;
+	}
+.heading {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 100;
+	margin-top: 30vh;
+}
+.subTitle {
+	text-align: center;
+	width: 50vw;
+	word-break: break-word;
+	margin: 0 auto;
+	margin-top: -20px;
+	font-weight: 300;
+}
+.btn {
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	color: black;
+	margin-top: 30px;
+	border: 2px solid black;
+	position: absolute;
+	transform: translate(-50%, -50%) scale(1.2);
+	left: 50%;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+
+.btn:hover {
+	background-color: black;
+	color: white;
+}
+
+.fas {
+	transition: transform 0.4s ease;
+}
+
+
+.btn:hover .fas {
+	color: white;
+	transform: scale(1.2);
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="image">
+	<img src="Images/background.png">
+</div>
+	<h1 class="heading">Welcome To <br><span class="title">Chainsys Projects Connect</span></h1>
+	<p class="subTitle">Training students projects will connect all in one site. That is easily to view us for all.</p>
+	<!--  <div class="img">
+		<input type="image" src="Images/Connect.png" alt="Submit" width="100" height="100">
+	</div> -->
+	<br/>
+	<a href="home.html" class="btn">Connect <i class="fas fa-link"></i></a>
+</body>
+</html>
