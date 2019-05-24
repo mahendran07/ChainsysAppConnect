@@ -1,3 +1,5 @@
+                                                            App Connect
+
 The main objective of “APP CONNECT” is used to connect all the application integrated into an a single application. Like an android mobile app view in web application.  
 
 FEATURES:
